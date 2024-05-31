@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+.nav{
+    margin: 2vh;
+    margin-right: 0;
+    top: 0;
+    bottom: 0;
+    height: 96vh;
+    left: 0;
+    background: #fff;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    transition: 0.5s width linear;
+    position: relative;
+}
+.logo {
+    text-align: center;
+    padding: 15px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.a span {
+    position: relative;
+    left: 100%;
+    transition: 0.5s all linear;
+}
+i, .nav-item {
+    color: rgb(55, 54, 54);
+}
+.nav .fas{
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.nav li {
+    /* list-style-type: none; */
+    padding: 10px;
+}
+li:hover{
+    background: #eee;
+}
+.nav:hover {
+    width: 250px;
+}
+.nav:hover span {
+    left: 10px;
+}
+.logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

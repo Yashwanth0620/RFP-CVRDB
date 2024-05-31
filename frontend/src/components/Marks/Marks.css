@@ -1,0 +1,21 @@
+.marks {
+    flex-grow: 1;
+}
+table, th, td {
+    border: 2px solid #b8d3f3;
+    border-collapse: collapse;
+    border-radius: 10px;
+    text-align: center;
+}
+th {
+    height: 50px;
+}
+td {
+    font-weight: 400;
+    border: 2px solid #dfe9f5;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+    height: auto;
+}

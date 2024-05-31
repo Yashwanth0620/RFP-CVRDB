@@ -1,0 +1,78 @@
+.courses {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    color: #545252;
+}
+.courses .status {
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+}
+.status .bar {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.active-bar, .bar:hover {
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+/* for the courses tab */
+.topic-frames {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 20px 20px;
+}
+/* .topic-container {
+    display: none;
+} */
+.active-course {
+    display: block;
+}
+.plate {
+    padding: 20px;
+    height: 50%;
+}
+.plate .title {
+    font-weight: 600;
+    text-align: center;
+}
+.frame-1 {
+    background-color: #dbebe3;
+}
+.frame-2 {
+    background-color: #fbf3a3;
+}
+.frame-3 {
+    background-color: #dbebe3;
+}
+.frame-4 {
+    background-color: #fbf3a3;
+}
+.plate:hover {
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.plate img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.plate:hover img {
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.dark-mode {
+    cursor: pointer;
+}

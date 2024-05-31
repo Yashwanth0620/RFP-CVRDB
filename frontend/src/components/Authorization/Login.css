@@ -1,0 +1,75 @@
+body {
+    background-color: #edf6fa;
+}
+
+h1, h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    margin: 0;
+    color: #4b6893;
+}
+
+h2 {
+    font-size: large;
+    align-self: flex-end;
+}
+
+.text {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container {
+    width: 30vw;
+    min-width: 350px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 20vh;
+    border: 2px solid #dfe9f5;
+    border-radius: 20px;
+    overflow: none;
+    color: #4343b5;
+}
+
+.login-container .image {
+    background-color: #dfe9f5;
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 20px 20px 0 0;
+}
+
+.login-container img {
+    padding: 5px 10px;    
+}
+
+.login-container form {
+    padding: 20px 50px 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.login-container label {
+    display: inline-block;
+    width: 15em;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #dfe9f5;
+    border-radius: 6px;
+    color: #434d8d;
+}
+.submit {
+    width: 100%;
+    color: #4b6893;
+    background-color: #dfe9f5;
+}
+#remember {
+    width: auto;
+}
